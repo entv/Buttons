@@ -37,6 +37,8 @@ namespace Buttons.ConsoleUI
 
             //симулируем нажатие на кнопку
             consoleUI.ButtonClick();
+
+            controller.Stop();
         }
     }
 }
