@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buttons", "Buttons", "{BB99012B-7FC4-4313-8CB1-9A3F29DA288D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buttons.Core", "Buttons.Core\Buttons.Core.csproj", "{74144019-1D3D-4AF9-A252-F8E7439931E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buttons.ConsoleUI", "Buttons.ConsoleUI\Buttons.ConsoleUI.csproj", "{451A971B-5AE4-48EE-86DA-0CE4678B4774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74144019-1D3D-4AF9-A252-F8E7439931E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74144019-1D3D-4AF9-A252-F8E7439931E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74144019-1D3D-4AF9-A252-F8E7439931E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74144019-1D3D-4AF9-A252-F8E7439931E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{451A971B-5AE4-48EE-86DA-0CE4678B4774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451A971B-5AE4-48EE-86DA-0CE4678B4774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451A971B-5AE4-48EE-86DA-0CE4678B4774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451A971B-5AE4-48EE-86DA-0CE4678B4774}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74144019-1D3D-4AF9-A252-F8E7439931E1} = {BB99012B-7FC4-4313-8CB1-9A3F29DA288D}
+		{451A971B-5AE4-48EE-86DA-0CE4678B4774} = {BB99012B-7FC4-4313-8CB1-9A3F29DA288D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25BED370-E036-4991-A43C-27D606831ED5}
+	EndGlobalSection
+EndGlobal
